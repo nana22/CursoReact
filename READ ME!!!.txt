@@ -1,0 +1,17 @@
+Modificar la aplicación de React de su proyecto para incluir lo siguiente:
+
+Incluir al menos una opción de enrutamiento en la aplicación, utilizando “React Router” y agregando el menú y las rutas correspondientes.
+R/ Apps.tsx
+
+<Routes>
+        <Route path="/" element={<MainScreen numberOfRecipes={numberOfRecipes} />} />
+        <Route path="/addRecipeAction" element={<RecipeForm numberOfRecipes={numberOfRecipes} addRecipe={addRecipe} />} />
+        <Route path="/myRecipes" element={<MyRecipes />} />
+        <Route path="/myRecipe:id" element={<RecipeDetails />} />
+        <Route path="/drinks" element={<DrinksList />} />
+      </Routes>
+
+Implemente al menos una de las siguientes opciones:
+Agregue “Redux” en su proyecto, creando el “store” y añadiendo las acciones y “reducers” en al menos un componente, para guardar y obtener el estado del “store”. 
+Utilice los Hooks en su aplicación, añadiendo el estado en al menos un componente funcional. Opcionalmente, puede crear un Hook personalizado y utilizarlo en su proyecto.
+R/ Hooks, Apps.tsx DrinkList.tsx

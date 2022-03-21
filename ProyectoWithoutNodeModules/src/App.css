@@ -1,0 +1,84 @@
+html, body, #root, .App {
+  height: 95%;
+  margin: 0;
+  font-family: 'Roboto', sans-serif;
+}
+.App{
+  overflow-x: hidden;
+}
+.main-content {
+  display: flex;
+  align-items: center;
+  height: 70%;
+  -webkit-box-pack: space-evenly;
+  -ms-flex-pack: space-evenly;
+  justify-content: space-evenly;
+  flex-direction: column
+}
+
+.main-content .item-container {
+  padding: 40px;
+  width: 300px;
+  border: 2px solid #6e0000;
+  border-radius: 30px;
+  text-align: center;
+}
+.main-content #AddRecipe {
+  background-color: #6e0000;
+  color: white;
+}
+.main-content #FindRecipe {
+  background-color: #a33006;
+  color: white;
+}
+.main,
+.DrinkList{
+  margin:30px;
+  
+}
+.spinner{
+      width: 160px;
+    height: auto;
+    margin: 0 auto;
+    padding: 10px;
+    position: relative;
+}
+.formField{
+  margin:10px
+}
+.formField label{
+  margin-right: 20px;
+}
+.formField p {
+  display: inline-block;
+  margin-left: 10px;
+  color:#a52525;
+  font-weight: bold;
+}
+.material-icons{
+  color: #6e0000;
+  vertical-align: text-bottom;
+  padding-left:10px;
+}
+.header{
+  text-align: center;
+  margin: 40px;
+}
+footer {
+  background: rgba(110, 0, 0, 0.3);
+}
+footer ul {
+  padding-left: 3px;
+}
+footer li {
+  list-style: none;
+}
+footer a {
+  color: #6e0000;
+}
+img{
+  width: 70%;
+}
+.App-header h3{
+  display: inline-block;
+}
